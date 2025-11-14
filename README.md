@@ -147,3 +147,54 @@ namespace MyApplication
     }
   }
 }
+// noveno codigo 
+using System;
+
+namespace MyApplication
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      Console.WriteLine("Ingresa el nombre");
+      string userName = Console.ReadLine();
+
+      Console.WriteLine("Ingresa el apellido ");
+      string Apellido = Console.ReadLine();
+
+      Console.WriteLine("Ingresa la edad ");
+      int Edad = int.Parse(Console.ReadLine());
+
+      Console.WriteLine("El usuario es: " + userName + ", Apellido: " + Apellido + ", Edad: " + Edad);
+    }
+  }
+}
+// decimo code
+Nombre Sean Pool Sierra Ortega
+
+ 
+using System;
+class Program
+{
+    static void Main(string[] args)
+    {
+        Console.Write("Ingresa el valor de x: ");
+        int x = int.Parse(Console.ReadLine());
+
+        Console.Write("Ingresa el valor de y: ");
+        int y = int.Parse(Console.ReadLine());
+
+        int suma = x + y;
+        Console.WriteLine("La suma es: " + suma);
+
+        int multiplicacion = x * y;
+        Console.WriteLine("La multiplicación es: " + multiplicacion);
+
+        int resta = x - y;
+        Console.WriteLine("La resta es: " + resta);
+        int modulo = x % y;
+        Console.WriteLine("El módulo es: " + modulo);
+    }
+}
+
+
