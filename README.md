@@ -75,6 +75,7 @@ namespace trabajo1
 
     }
 }
+
 // quinto codigo 
 using System;
 
@@ -88,6 +89,41 @@ namespace MyApplication
       double myDouble = myInt; 
       Console.WriteLine(myInt);
       Console.WriteLine(myDouble);
+    }
+  }
+}
+
+//sexto codigo 
+using System;
+
+namespace MyApplication
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      int myInt = 15;
+      double myDouble = myInt; 
+      Console.WriteLine(myInt);
+      Console.WriteLine(myDouble);
+    }
+  }
+}                
+
+// septimo codigo 
+using System;
+
+namespace MyApplication
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      double myDouble = 5.31;
+      int myInt = (int) myDouble;  
+
+      Console.WriteLine(myDouble);
+      Console.WriteLine(myInt);
     }
   }
 }
