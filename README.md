@@ -197,4 +197,13 @@ class Program
     }
 }
 
-
+// once codigo
+using System;
+class Program
+{
+  { Console.WriteLine("ingrese la edad ");
+  int edad = Console.ReadLine();
+  Console.WriteLine("su edad es " + edad);
+   
+   }
+}
