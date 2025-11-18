@@ -202,7 +202,7 @@ using System;
 class Program
 {
   { Console.WriteLine("ingrese la edad ");
-  int edad = Console.ReadLine();
+  int edad = int.Parse(Console.ReadLine());
   Console.WriteLine("su edad es " + edad);
    
    }
