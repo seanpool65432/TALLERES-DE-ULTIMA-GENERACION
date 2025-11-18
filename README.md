@@ -336,3 +336,71 @@ class Proto1
         Console.WriteLine("La longitud de la direccion es de: " + direccion.Length);
     }
 }
+//codigo23 para solicitar que el ingreso de datos no este vacio
+using System;
+
+public class Proto1
+{
+    public static void Main(string[] args)
+    {
+
+        string nombre = "";
+        while (string.IsNullOrWhiteSpace(nombre))
+        {
+            Console.Write("Ingrese su nombre completo: ");
+            nombre = Console.ReadLine();
+
+            if (string.IsNullOrWhiteSpace(nombre))
+            {
+                Console.WriteLine(" Error debe ingresar su nombre.");
+            }
+        }
+        string nombremayus = nombre.ToUpper();
+
+        string edadTexto = "";
+        while (string.IsNullOrWhiteSpace(edadTexto))
+        {
+            Console.Write("Ingrese su edad: ");
+            edadTexto = Console.ReadLine();
+
+            if (string.IsNullOrWhiteSpace(edadTexto))
+            {
+                Console.WriteLine(" Error la edad no puede estar vacía.");
+            }
+        }
+
+        int edad = int.Parse(edadTexto);
+
+        string direccion = "";
+        while (string.IsNullOrWhiteSpace(direccion))
+        {
+            Console.Write("Ingrese su dirección: ");
+            direccion = Console.ReadLine();
+
+            if (string.IsNullOrWhiteSpace(direccion))
+            {
+                Console.WriteLine("Error debe ingresar una dirección.");
+            }
+        }
+
+        string email = "";
+        while (string.IsNullOrWhiteSpace(email))
+        {
+            Console.Write("Ingrese su email: ");
+            email = Console.ReadLine();
+
+            if (string.IsNullOrWhiteSpace(email))
+            {
+                Console.WriteLine("Error debe ingresar un email.");
+            }
+        }
+        string emailminus = email.ToLower();
+
+        Console.WriteLine("------------------------");
+        Console.WriteLine("Nombre: " + nombremayus);
+        Console.WriteLine("Edad: " + edad);
+        Console.WriteLine("Dirección: " + direccion);
+        Console.WriteLine("Email: " + emailminus);
+    }
+}
+
