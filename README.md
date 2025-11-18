@@ -207,3 +207,132 @@ class Program
    
    }
 }
+//codigo 12
+using System;
+public class Proto1
+{
+    public static void Main(string[] args)
+    {
+        Console.Write("Ingrese su nombre completo: ");
+        string nombre = Console.ReadLine();
+        Console.Write("Ingrese su edad: ");
+        int edad = int.Parse(Console.ReadLine());
+        Console.Write("ingrese su direccion");
+        string direccion = Console.ReadLine();
+        Console.Write("Ingrese su email");
+        string email = Console.ReadLine();
+        Console.WriteLine("------------------------");
+        Console.WriteLine("Nombre: " + nombre);
+        Console.WriteLine("Edad: " + edad);
+        Console.WriteLine("Direccion: " + direccion);
+        Console.WriteLine("Email: " + email);
+    }
+}
+
+//codigo trece 
+using System;
+public class Proto1
+{
+    public static void Main(string[] args)
+    {
+        double x = Math.Pow((2 + 4), 2);
+        double y = Math.Pow((4 * 8), 3);
+        double resultado = x / y;
+        Console.WriteLine("el resultado es" + resultado);
+    }
+}
+
+//codigo catorce
+using System;
+public class Proto1
+{
+    public static void Main(string[] args)
+    {
+        int max = Math.Max(5, 10);
+        Console.WriteLine("el valor maximo es: " + max);
+    }
+}
+
+//codigo quince
+using System;
+public class Proto1
+{
+    public static void Main(string[] args)
+    {
+        int min = Math.Min(5, 10);
+        Console.WriteLine("el valor minimo es: " + min);
+    }
+}
+
+//codigo dieciseis
+using System;
+public class Proto1
+{
+    public static void Main(string[] args)
+    {
+        double raiz = Math.Sqrt(64);
+        Console.WriteLine("La raiz de 64 es: " + raiz);
+    }
+}
+
+//codigo dieciciete
+using System;
+public class Proto1
+{
+    public static void Main(string[] args)
+    {
+        double valorabs = Math.Abs(-4.7);
+        Console.WriteLine("El valor absoluto es: " + valorabs);
+    }
+}
+
+//codigodieciocho
+using System;
+public class Proto1
+{
+    public static void Main(string[] args)
+    {
+        double redondeado = Math.Round(9.99);
+        Console.WriteLine("El valor redondeado de 9.99 es: " + redondeado);
+    }
+}
+
+//codigo diescinueve
+using System;
+public class Proto1
+{
+    public static void Main(string[] args)
+    {
+        double x = Math.Pow((2 + 4), 2);
+        double y = Math.Pow((4 * 8), 3);
+        double resultado = x / y;
+        Console.WriteLine("el resultado es: " + resultado);
+        double redondeado = Math.Round(resultado);
+        Console.WriteLine("El valor redondeado del resultado es: " + redondeado);
+    }
+
+//codigo veinte
+
+using System;
+class Proto1
+{
+    public static void Main(string[] args)
+    {
+        string txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+        Console.WriteLine("La longitud del texto es de: " + txt.Length);
+    }
+}
+
+//codigo21
+using System;
+class Proto1
+{
+    public static void Main(string[] args)
+    {
+        Console.Write("ingrese su direccion: ");
+        string direccion = Console.ReadLine();
+        Console.WriteLine("------------------------");
+        Console.WriteLine("Direccion: " + direccion);
+        Console.WriteLine("La longitud de la direccion es de: " + direccion.Length);
+    }
+}
