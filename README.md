@@ -402,5 +402,34 @@ public class Proto1
         Console.WriteLine("Dirección: " + direccion);
         Console.WriteLine("Email: " + emailminus);
     }
+//codigo24
+}
+using System;
+class Car
+ 
+{
+  private string model = "Mustang";
+
+  static void Main(string[] args)
+  {
+    Car myObj = new Car();
+    Console.WriteLine(myObj.model);
+  }
+}
+//codigo25 
+using System;
+
+class Car
+{
+  public string model = "Mustang";
+}
+
+class Program
+{
+  static void Main(string[] args)
+  {
+    Car myObj = new Car();
+    Console.WriteLine(myObj.model);
+  }
 }
 
